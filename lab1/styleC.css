@@ -1,0 +1,24 @@
+.box {
+	display: flex;
+	font-size:  40px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Permanent Marker', cursive;
+	height: 97vh;
+}
+
+.box div {	
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	box-shadow: 15px 15px 30px #00ffff,
+	            15px 15px 30px blue,
+	            inset 0 0 5px; 
+	background-color: white;
+	padding: 20px;
+	transition: height 1.5s;
+}
+
+.box div:hover {
+		height: 150px;
+		background-color: #00ffff;
+ }
