@@ -1,0 +1,30 @@
+<p id="update"></p>
+<table class='table'>
+    <caption>TABLE</caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>PRICE</th>
+            <th>RATING</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{name}}</td>
+                <td>{{price}}</td>
+                <td>{{rating}}</td>
+                <td>
+                    <p class="edit" onclick="openEdit(event)">Edit</p>
+                    <p class="delete" onclick="deleteUser({{id}})">Delete</p>
+                </td>               
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+ <div class="backpopup"></div>
+ <div class="err-area"></div>  
+{{> page_data}}
+{{> page_edit}}
