@@ -1,0 +1,27 @@
+/* CSS styles for a CS142 project. */
+
+body {
+    font-size: 13px;
+    color: #000000;
+    background: #ffffff;
+    margin: 8px;
+  }
+  
+  .example {
+    display: inline-block;
+  }
+  .example td {
+    padding: 2px 10px 2px 10px;
+    border-top: 1px solid #ffffff;
+    vertical-align: top;
+    background: #ec8b3c;
+  }
+  .example tr:nth-child(odd) td {
+    background: #f0d0ad;
+  }
+  .example tr:first-child td {
+    border-top: none;
+    background: #e25118;
+    color: #ffffff;
+    white-space: nowrap;
+  }
