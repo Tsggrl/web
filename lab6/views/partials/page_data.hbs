@@ -1,0 +1,26 @@
+<p class="open" onclick="openEdit(event)" >Открыть всплывающее окно</p>
+
+<div class="page-data">
+    <p class="close">x</p>	
+        <form method="post" action="/add" id="the-add-form">
+            <table cellpadding="5">
+                <tr>
+                    <td class="label">Name</td><td>: <input type="text" name="name" required="required"></td>
+                </tr>
+                <tr>
+                    <td class="label">Price</td><td>: <input type="number" name="price" required="required" pattern="[A-Za-z0-9]{1,20}"></td>
+                </tr>
+                <tr>
+                    <td class="label">Rating</td><td>: <input type="number" name="rating" step="0.1" min="1" max="5" required="required" pattern="[A-Za-z0-9]{1,20}"></td>
+                </tr>
+                <tr>
+                    <td class="label"></td>
+                    <td>
+                        &nbsp; <input type="submit" name="submit" value="send">
+                        <input type="button" name="cancel" value="cancel" class="cancel">
+                    </td>
+                </tr>
+            </table>
+        </form>
+ </div>
+ 
