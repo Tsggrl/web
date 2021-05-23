@@ -1,0 +1,59 @@
+body {
+    font-family: "Indie Flower", cursive;
+    display: flex;
+    justify-content: center;
+  }
+  /* h1 {
+  } */
+  td#OtherMonth {
+    background:rgb(230, 230, 230);
+  }
+  
+  td#CurMonth {
+    background: rgb(15, 180, 172);
+    cursor: pointer;
+  }
+  td#CurMonth:hover{
+    background: rgb(14, 55, 238) ;
+      }
+ td#CurMonth.selected {
+  background-color: green;
+  color: #ffffff;
+}
+
+  #LeftArrow,
+  #RightArrow {
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  #LeftArrow:hover,
+  #RightArrow:hover {
+    color: #3498db;
+  }
+  
+  table {
+    border-style: 1px solid;
+    /*border-collapse: collapse;*/
+    border-radius: 5px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    background: deepskyblue;
+    cursor: default;
+    background-color: rgb(26, 8, 92);
+  }
+  .daysInAMonth.selected:hover {
+    background-color: rgb(190, 2, 2);
+    color: #ffffff;
+  }
+  .haha{
+    background-color: green;
+    color: green;
+  }
